@@ -20,7 +20,7 @@ namespace ConsoleApp
             string path = "/api/persons";
 
             // 1. Get Datas
-            await client.GetAll(path);
+            //await client.GetAll(path);
 
             // 2. Get Data By Id
             //await client.GetById(path);
@@ -29,7 +29,7 @@ namespace ConsoleApp
             //await client.Add(path);
 
             //4.Update Data
-            //await client.Put(path);
+            await client.Put(path);
 
             // 5.Delete Data
             //await client.Delete(path);

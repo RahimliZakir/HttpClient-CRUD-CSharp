@@ -154,8 +154,7 @@ namespace ConsoleApp.Commands
                 id,
                 name,
                 surname,
-                age = intAge,
-                createdDate = "2021-12-22T22:51:11.447Z"
+                age = intAge
             };
 
             string serializedObj = JsonConvert.SerializeObject(person);
